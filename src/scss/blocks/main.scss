@@ -1,0 +1,28 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    &__img {
+        padding-top: 96px;
+        width: 622px;
+    }
+    &__left {
+        padding-top: 285px;
+    
+        &-title3 {
+            margin-top: 40px;
+            font-family: 'Playfair Display';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
+            color: #FFFFFF;
+        }
+        &-descr3 {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: #FFFFFF;
+            opacity: 0.6;
+        }
+    }
+}

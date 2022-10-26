@@ -1,0 +1,75 @@
+* {
+  font-family: 'Poppins',  sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #19161B;
+}
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+@import "./blocks/header";
+@import "./blocks/main.scss";
+@import "./blocks/knowMore.scss";
+@import "./blocks/serwing.scss";
+
+
+.title__h2 {
+ 
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 68px;
+    color: #FFFFFF;
+    opacity: 0.87;
+}
+
+.title__h3 {
+  position: relative;
+  h3 {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFB577;
+  }
+  &-line {
+  position: absolute;
+  right: 400px;
+  top: 11px;
+  width: 48px;
+  height: 0px;
+  border: 1px solid #FFFFFF;    
+  }
+}
+
+.descr__16px {
+  padding-top: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  color: #B8B8B8;
+}
+
+.btn__16px {
+  display: block;
+  margin-top: 32px;
+  width: 164px;
+  height: 48px;
+  background: #FFB577;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2E2D33;
+  border: 1px solid #2E2D33;
+  cursor: pointer;
+  img {
+      fill: black;
+  }
+}
+
+
+
