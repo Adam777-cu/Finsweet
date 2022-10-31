@@ -2,7 +2,7 @@
   font-family: 'Poppins',  sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #19161B;
+  
 }
 .container {
   width: 1280px;
@@ -12,18 +12,22 @@
 @import "./blocks/header";
 @import "./blocks/main.scss";
 @import "./blocks/knowMore.scss";
+@import "./blocks/story.scss";
 @import "./blocks/serwing.scss";
-
+@import "./blocks/menu.scss";
+@import "./blocks/quote.scss";
+@import "./blocks/blog";
+@import "./blocks/contact.scss";
+@import "./blocks/footer.scss";
 
 .title__h2 {
- 
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 68px;
-    color: #FFFFFF;
-    opacity: 0.87;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 68px;
+  color: #FFFFFF;
+  opacity: 0.87;
 }
 
 .title__h3 {
@@ -47,7 +51,7 @@
 }
 
 .descr__16px {
-  padding-top: 16px;
+  display: block;
   font-weight: 400;
   font-size: 16px;
   line-height: 36px;
@@ -66,9 +70,6 @@
   color: #2E2D33;
   border: 1px solid #2E2D33;
   cursor: pointer;
-  img {
-      fill: black;
-  }
 }
 
 

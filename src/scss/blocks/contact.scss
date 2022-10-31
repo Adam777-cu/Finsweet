@@ -1,0 +1,27 @@
+.contact {
+    padding-top: 160px;
+    background-color: #19161B;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+        padding-top: 30px;
+    }
+    &__descr {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #B8B8B8;
+    }
+    &__detalis {
+        background: #1F1D21;
+        padding: 80px 35px 80px 64px;
+    }
+}

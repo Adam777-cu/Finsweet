@@ -1,0 +1,38 @@
+.blog {
+    padding-top: 160px;
+    background-color: #19161B;
+    &__items {
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       column-gap: 32px;
+       margin-top: 64px;
+    }
+    &__item {
+        &-info {
+            background: #1F1D21;
+            padding: 32px;
+            &-data {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                color: #B8B8B8;
+               
+            }
+            &-title {
+                font-family: 'Playfair Display';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 48px;
+                color: #FFFFFF;
+                opacity: 0.87;
+            }
+            &-descr {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+                color: #B8B8B8;
+            }
+        }
+    }
+}

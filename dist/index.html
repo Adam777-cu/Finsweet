@@ -1,14 +1,43 @@
 <!DOCTYPE html>
 <html lang="ru">
-@@include('html/head.html',{
-"title": "Finsweet"
-})
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finsweet</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script defer src="./js/main.min.js"></script>
+</head>
+
 
 <body>
  
 
  
-    @@include('html/header.html',{})
+    <header>
+    <div class="container">
+        <div class="navbar">
+            <img src="../img/icons/Logo.svg" alt="Logo" class="navbar__logo">
+            <div class="navbar__menu">
+                <ul class="navbar__menu-list">
+                    <a href="/"><li>Home</li></a>
+                    <a href="../menu.html"> <li>Menu </li> </a>
+                    <a href="../about.html"><li>About us</li></a>
+                    <a href="../story.html"> <li>Our Story</li></a>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="navbar__clone">
+                <span>Clone Project</span>
+                <img src="../img/icons/Arrow .svg" alt="Arrow">
+            </div>
+        </div>
+        
+    </div>
+</header>
+
     <div class="main">
       <div class="container">
        <div class="main__wrapper">
@@ -279,7 +308,40 @@
        </div>
       </div>
     </section>
-    @@include('html/footer.html',{})
+    <footer>
+  <div class="container">
+    <div class="navbar">
+        <img src="../img/icons/Logo.svg" alt="Logo" class="navbar__logo">
+        <div class="navbar__menu">
+            <ul class="navbar__menu-list">
+                <li>Home</li>
+                <li>Menu</li>
+                <li>About us</li>
+                <li>Our Story</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </div>
+  </div>
+  <div class="line"></div>
+  <div class="container">
+    <div class="bottom">
+        <div class="bottom__descr">© 2021 Finsweet | All rights reserved.</div>
+        <div class="bottom__social">
+            <img src="../img/icons/Facebook.svg" alt="Facebook">
+            <img src="../img/icons/Twitter.svg" alt="Twitter">
+            <img src="../img/icons/Instagram.svg" alt="Instagram">
+            <img src="../img/icons/Linkedin.svg" alt="Linkedin">
+        </div>
+        <div class="bottom__button">
+            <button class="bottom__button-btn">Contact Us</button>
+            <img class="bottom__button-arrow" src="../img/icons/Arrow .svg" alt="arrow">
+        </div>
+      </div>
+  </div>
+</footer>
+
   
 </body>
 

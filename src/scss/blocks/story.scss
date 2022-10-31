@@ -1,0 +1,46 @@
+.story {
+    background-color: #19161B;
+    padding-top: 100px;
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 10%;
+    }
+    &__item {
+        position: relative;
+        &-title {
+            font-family: 'Playfair Display';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 68px;
+            color: #FFFFFF;
+        }
+        &-title3 {
+            font-family: 'Playfair Display';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 48px;
+            color: #FFFFFF;
+            a {
+                color: #FFB577;
+            }
+        }
+        &-descr {
+            padding-top: 24px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: #B8B8B8;
+        }
+        &-img1 {
+            margin-top: 25%;
+        }
+        &-img2 {
+            position: absolute;
+            bottom: 10%;
+            right: 5%;
+        }
+    }
+}

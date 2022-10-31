@@ -1,0 +1,80 @@
+.menu {
+    padding: 175px 0;
+    background-color: #19161B;
+   
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        margin-bottom: 64px;
+        &-title {
+            h4 {
+                margin-top: 32px;
+                font-family: 'Playfair Display';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 21px;
+                color: #C4E4EA;
+            }
+        }
+    } 
+    &__filter {
+        display: flex;
+        padding-top: 144px;
+        padding-bottom: 64px;
+        .active {
+            opacity: 1;
+            border-bottom: 1px solid #FFB577;
+        }
+        &-list {
+            padding-right: 32px;
+            font-family: 'Playfair Display';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
+            color: #FFFFFF;
+            opacity: 0.6;
+            list-style: none;
+            cursor: pointer;
+        }
+    } 
+    &__items {
+        display: grid;
+        grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+        gap: 32px;
+    } 
+    &__item {
+        border:  1px solid #FFB577;;
+        &-descr {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 0;
+            background: #1F1D21;
+            &-title {
+                font-family: 'Playfair Display';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 30px;
+                color: #FFFFFF;
+                opacity: 0.87
+            }
+            &-price {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 32px;
+                color: #FFFFFF;
+                opacity: 0.87;
+            }
+        }
+    }
+    &__btn {
+        display: flex;
+        justify-content: center;
+    }
+}
